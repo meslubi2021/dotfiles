@@ -112,3 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# adding this specifically for devcontainers, but it also seems like a better default than 022
+umask 002
+
