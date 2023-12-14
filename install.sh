@@ -6,3 +6,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ln -s $DOTFILES/.zshrc ~
 [[ ! -f ~/.p10k.zsh ]] || mv ~/.p10k.zsh ~/.p10k.zsh.orig
 ln -s $DOTFILES/.p10k.zsh ~
+if command -v defaults &> /dev/null; then
+  defaults write com.apple.Safari UserStyleSheetLocationURLString -string "$DOTFILES/Safari/stylesheet.css"
+fi

@@ -1,0 +1,18 @@
+@import url('https://brandt.kurowski.net/monaspice-webfonts/monaspice.css');
+
+/* Comment Class */
+#js-vscode-workbench .mtk3.mtki {
+  font-family: "MonaspiceRn Nerd Webfont";
+  font-weight: 500;
+}
+
+/* Copilot Classes */
+#js-vscode-workbench .ghost-text-decoration {
+  font-family: 'MonaspiceKr Nerd Webfont';
+  font-weight: 200;
+}
+
+#js-vscode-workbench .ghost-text-decoration-preview {
+  font-family: 'MonaspiceKr Nerd Webfont';
+  font-weight: 200;
+}
